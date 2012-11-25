@@ -466,4 +466,23 @@ class Article < Content
     to = to - 1 # pull off 1 second so we don't overlap onto the next day
     return from..to
   end
+
+  def merge_with(article_id)
+    return nil if article_id.nil? || article_id == self.id
+    return nil if not Article.exists?(article_id)
+    other_article = Article.find(article_id)
+    new_article = self.deep_clone
+    other_comments = other_article.comments
+    new_article.comments << other_comments
+    new_article.body = new_article.body + "\n" + other_article.body
+    return new_article
+  end
+
+  def deep_clone
+    new_article = clone
+    new_article.id = nil
+    new_article.guid = nil
+    new_article.comments = comments.collect { |c| c.clone }
+    new_article
+  end
 end

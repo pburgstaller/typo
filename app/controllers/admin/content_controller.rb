@@ -52,6 +52,31 @@ class Admin::ContentController < Admin::BaseController
     redirect_to :action => 'index'
   end
 
+  def merge_with
+
+    id = params[:id]
+    merge_id = params[:merge_with]
+
+    if id.nil? || merge_id.nil? || id == merge_id
+      flash[:error] = _("Error, either you didn't provide an id to merge, or its the same article")
+      return(redirect_to :action => 'index')
+    end
+
+    current_article = Article.find(id)
+    @article = current_article.merge_with(merge_id)
+    if @article.nil?
+      flash[:error] = _("Error, Article("+merge_id+") does not exist!")
+      return(redirect_to :action => 'index')
+    end
+    @article.save!
+    flash[:notice] = _("The articles have been merged into one!")
+
+    current_article.destroy;
+    Article.find(merge_id).destroy
+    redirect_to :action => 'index'
+
+  end
+
   def insert_editor
     editor = 'visual'
     editor = 'simple' if params[:editor].to_s == 'simple'
@@ -240,4 +265,5 @@ class Admin::ContentController < Admin::BaseController
   def setup_resources
     @resources = Resource.by_created_at
   end
+
 end

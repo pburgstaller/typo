@@ -1,3 +1,17 @@
 <% @page_heading = _('New article') %>
 
 <%= render "admin/shared/edit", { :form_type => "article", :form_action => { :action => "new", :id => @article.id , :class => ('autosave')} } %>
+
+<% if @article and @article.id and current_user.admin?%>
+  <div class='editor-left'>
+    <h4><%= _("Merge Articles") %></h4>
+    <p class='help-block'>You can merge this article with another by specifying the others ID here.</p>
+    <div>
+      <%= form_tag :action => "merge_with", :id => @article.id do %>
+        <%= _("Article ID:") %>
+        <input type="text" name="merge_with" class = "span1">
+        <input type="submit" value='<%= _("Merge") %>' >
+      <% end %>
+    </div>
+  </div>
+<% end %>

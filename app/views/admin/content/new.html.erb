@@ -9,7 +9,7 @@
     <div>
       <%= form_tag :action => "merge_with", :id => @article.id do %>
         <%= _("Article ID:") %>
-        <input type="text" name="merge_with" class = "span1">
+        <input type="text" name="merge_with" id="merge_with">
         <input type="submit" value='<%= _("Merge") %>' >
       <% end %>
     </div>

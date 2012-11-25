@@ -480,7 +480,7 @@ class Article < Content
 
   def deep_clone
     new_article = clone
-    new_article.id = nil
+#    new_article.id = nil
     new_article.guid = nil
     new_article.comments = comments.collect { |c| c.clone }
     new_article

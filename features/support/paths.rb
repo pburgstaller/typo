@@ -19,6 +19,12 @@ module NavigationHelpers
       '/admin/content/new'
     when /^the manage articles page$/
       '/admin/content'
+    when /^edit article \"(.*)\"$/
+      title = $1
+      article = Article.find_by_title(title)
+      raise "Cannot find article with title #{title}" unless article
+      article_id = article.id
+      "/admin/content/edit/#{article_id}"
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:

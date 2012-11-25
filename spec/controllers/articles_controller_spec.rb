@@ -32,6 +32,12 @@ describe ArticlesController do
     response.should redirect_to(tags_path)
   end
 
+  describe 'merge action' do
+    it "should prevent non-admin users from merging two articles" do
+      pending "implementation"
+    end
+  end
+
   describe 'index action' do
     before :each do
       Factory.create(:article)

@@ -61,7 +61,4 @@ group :development, :test do
   gem 'ZenTest'
   gem 'autotest-rails'
   gem 'autotest-fsevent'
-#  gem 'ZenTest'
-#  gem 'autotest-rails'
-#  gem 'autotest-fsevent'
 end

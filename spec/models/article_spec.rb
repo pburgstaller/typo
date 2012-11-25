@@ -630,5 +630,13 @@ describe Article do
     end
 
   end
+
+  describe "merge 2 articles" do
+    it "should have one of the 2 titles"
+    it "should contain both bodys"
+    it "should retain all comments"
+    it "should have one of the two authors"
+  end
+
 end
 

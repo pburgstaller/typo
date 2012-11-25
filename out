@@ -1,0 +1,1230 @@
+2012-11-25T12:08:58+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (72.8ms)
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: Started POST "/admin/users/destroy/29" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:08:58+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"29"}
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: Completed 302 Found in 50ms
+2012-11-25T12:08:58+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:08:58+00:00 heroku[router]: at=info method=POST path=/admin/users/destroy/29 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=58ms status=302 bytes=117
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: Started GET "/admin/users" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:08:58+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (56.5ms)
+2012-11-25T12:08:58+00:00 app[web.1]: Completed 200 OK in 98ms (Views: 46.4ms | ActiveRecord: 65.7ms)
+2012-11-25T12:08:58+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=108ms status=200 bytes=6611
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (112.2ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=194ms status=200 bytes=12200
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (139.9ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 183ms (Views: 85.6ms | ActiveRecord: 86.9ms)
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content/destroy/115" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"id"=>"115"}
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (17.6ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 21.0ms | ActiveRecord: 19.0ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/115 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=56ms status=200 bytes=6127
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started POST "/admin/content/destroy/115" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"115"}
+2012-11-25T12:08:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 302 Found in 59ms
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/115 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=65ms status=302 bytes=119
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (118.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (139.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 171ms (Views: 79.2ms | ActiveRecord: 126.2ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=180ms status=200 bytes=11535
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"id"=>"114"}
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content/destroy/114" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (10.1ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 45ms (Views: 14.4ms | ActiveRecord: 20.5ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/114 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=9ms service=53ms status=200 bytes=6127
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started POST "/admin/content/destroy/114" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"114"}
+2012-11-25T12:08:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 302 Found in 62ms
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/114 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=70ms status=302 bytes=119
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (77.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (98.3ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 127ms (Views: 56.8ms | ActiveRecord: 106.5ms)
+2012-11-25T12:09:00+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:03+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:03+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:06+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:06+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:13+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:17+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:18+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#redirect as HTML
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]:   Parameters: {"from"=>"robots.txt"}
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/robots.txt" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (7.2ms)
+2012-11-25T12:09:22+00:00 app[web.1]: #<ActionView::MissingTemplate: Missing partial /sidebar/content with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/app/themes/bootstrap/views", "/app/themes/bootstrap/views", "/app/app/views", "/app/vendor/plugins/xml_sidebar/app/views", "/app/vendor/plugins/upload_progress/app/views", "/app/vendor/plugins/typo_textfilter_textile_and_markdown/app/views", "/app/vendor/plugins/typo_textfilter_textile/app/views", "/app/vendor/plugins/typo_textfilter_smartypants/app/views", "/app/vendor/plugins/typo_textfilter_none/app/views", "/app/vendor/plugins/typo_textfilter_markdown/app/views", "/app/vendor/plugins/typo_textfilter_lightbox/app/views", "/app/vendor/plugins/typo_textfilter_htmlfilter/app/views", "/app/vendor/plugins/typo_textfilter_flickr/app/views", "/app/vendor/plugins/typo_textfilter_code/app/views", "/app/vendor/plugins/typo_login_system/app/views", "/app/vendor/plugins/typo_converter/app/views", "/app/vendor/plugins/typo_avatar_gravatar/app/vi
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered errors/404.html.erb within layouts/default (93.9ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 404 Not Found in 107ms (Views: 79.7ms | ActiveRecord: 25.7ms)
+2012-11-25T12:09:22+00:00 app[web.1]: ews", "/app/vendor/plugins/tag_sidebar/app/views", "/app/vendor/plugins/static_sidebar/app/views", "/app/vendor/plugins/search_sidebar/app/views", "/app/vendor/plugins/rails_log_stdout/app/views", "/app/vendor/plugins/rails3_serve_static_assets/app/views", "/app/vendor/plugins/page_sidebar/app/views", "/app/vendor/plugins/meta_sidebar/app/views", "/app/vendor/plugins/livesearch_sidebar/app/views", "/app/vendor/plugins/filemanager/app/views", "/app/vendor/plugins/easy-ckeditor/app/views", "/app/vendor/plugins/dynamic_form/app/views", "/app/vendor/plugins/category_sidebar/app/views", "/app/vendor/plugins/calendar_date_select/app/views", "/app/vendor/plugins/authors_sidebar/app/views", "/app/vendor/plugins/archives_sidebar/app/views", "/app/vendor/plugins/amazon_sidebar/app/views", "/app/vendor/plugins/prototype_legacy_helper/app/views", "/app/vendor/plugins/localization/app/views", "/app/vendor/bundle/ruby/1.9.1/gems/kaminari-0.14.1/app/views">
+2012-11-25T12:09:22+00:00 heroku[router]: at=info method=GET path=/robots.txt host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=127ms status=404 bytes=3136
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/articles.rss" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#index as RSS
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (20.0ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (11.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (10.6ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (13.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 200 OK in 85ms (Views: 39.3ms | ActiveRecord: 41.3ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (72.3ms)
+2012-11-25T12:08:58+00:00 app[web.1]: Started GET "/admin/users" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:08:58+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (56.5ms)
+2012-11-25T12:08:58+00:00 app[web.1]: Completed 200 OK in 98ms (Views: 46.4ms | ActiveRecord: 65.7ms)
+2012-11-25T12:08:58+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=108ms status=200 bytes=6611
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (112.2ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=194ms status=200 bytes=12200
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (139.9ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 183ms (Views: 85.6ms | ActiveRecord: 86.9ms)
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content/destroy/115" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"id"=>"115"}
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (17.6ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 21.0ms | ActiveRecord: 19.0ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/115 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=56ms status=200 bytes=6127
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started POST "/admin/content/destroy/115" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"115"}
+2012-11-25T12:08:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 302 Found in 59ms
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=POST path=/admin/content/d
+estroy/115 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=65ms status=302 bytes=119
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (118.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (139.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 171ms (Views: 79.2ms | ActiveRecord: 126.2ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=180ms status=200 bytes=11535
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"id"=>"114"}
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content/destroy/114" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (10.1ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 45ms (Views: 14.4ms | ActiveRecord: 20.5ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/114 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=9ms service=53ms status=200 bytes=6127
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started POST "/admin/content/destroy/114" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"114"}
+2012-11-25T12:08:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 302 Found in 62ms
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/114 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=70ms status=302 bytes=119
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (77.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (98.3ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 127ms (Views: 56.8ms | ActiveRecord: 106.5ms)
+2012-11-25T12:09:00+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:03+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:03+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:06+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:06+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:13+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:17+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:18+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#redirect as HTML
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]:   Parameters: {"from"=>"robots.txt"}
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/robots.txt" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (7.2ms)
+2012-11-25T12:09:22+00:00 app[web.1]: #<ActionView::MissingTemplate: Missing partial /sidebar/content with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/app/themes/bootstrap/views", "/app/themes/bootstrap/views", "/app/app/views", "/app/vendor/plugins/xml_sidebar/app/views", "/app/vendor/plugins/upload_progress/app/views", "/app/vendor/plugins/typo_textfilter_textile_and_markdown/app/views", "/app/vendor/plugins/typo_textfilter_textile/app/views", "/app/vendor/plugins/typo_textfilter_smartypants/app/views", "/app/vendor/plugins/typo_textfilter_none/app/views", "/app/vendor/plugins/typo_textfilter_markdown/app/views", "/app/vendor/plugins/typo_textfilter_lightbox/app/views", "/app/vendor/plugins/typo_textfilter_htmlfilter/app/views", "/app/vendor/plugins/typo_textfilter_flickr/app/views", "/app/vendor/plugins/typo_textfilter_code/app/views", "/app/vendor/plugins/typo_login_system/app/views", "/app/vendor/plugins/typo_converter/app/views", "/app/vendor/plugins/typo_avatar_gravatar/app/vi
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered errors/404.html.erb within layouts/default (93.9ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 404 Not Found in 107ms (Views: 79.7ms | ActiveRecord: 25.7ms)
+2012-11-25T12:09:22+00:00 app[web.1]: ews", "/app/vendor/plugins/tag_sidebar/app/views", "/app/vendor/plugins/static_sidebar/app/views", "/app/vendor/plugins/search_sidebar/app/views", "/app/vendor/plugins/rails_log_stdout/app/views", "/app/vendor/plugins/rails3_serve_static_assets/app/views", "/app/vendor/plugins/page_sidebar/app/views", "/app/vendor/plugins/meta_sidebar/app/views", "/app/vendor/plugins/livesearch_sidebar/app/views", "/app/vendor/plugins/filemanager/app/views", "/app/vendor/plugins/easy-ckeditor/app/views", "/app/vendor/plugins/dynamic_form/app/views", "/app/vendor/plugins/category_sidebar/app/views", "/app/vendor/plugins/calendar_date_select/app/views", "/app/vendor/plugins/authors_sidebar/app/views", "/app/vendor/plugins/archives_sidebar/app/views", "/app/vendor/plugins/amazon_sidebar/app/views", "/app/vendor/plugins/prototype_legacy_helper/app/views", "/app/vendor/plugins/localization/app/views", "/app/vendor/bundle/ruby/1.9.1/gems/kaminari-0.14.1/app/views">
+2012-11-25T12:09:22+00:00 heroku[router]: at=info method=GET path=/robots.txt host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=127ms status=404 bytes=3136
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/articles.rss" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#index as RSS
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (20.0ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (11.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (10.6ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (13.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 200 OK in 85ms (Views: 39.3ms | ActiveRecord: 41.3ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (72.3ms)
+2012-11-25T12:10:23+00:00 app[web.1]: 
+2012-11-25T12:10:23+00:00 app[web.1]: Started GET "/articles.rss" for 66.249.76.192 at 2012-11-25 12:10:23 +0000
+2012-11-25T12:10:23+00:00 app[web.1]:   Processing by ArticlesController#index as RSS
+2012-11-25T12:10:23+00:00 app[web.1]: 
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (24.8ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (22.2ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (15.7ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (14.4ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (87.5ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Completed 200 OK in 104ms (Views: 44.3ms | ActiveRecord: 52.1ms)
+2012-11-25T12:10:23+00:00 heroku[router]: at=info method=GET path=/articles.rss host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=112ms status=304 bytes=0
+2012-11-25T12:08:58+00:00 app[web.1]: Started GET "/admin/users" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:08:58+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (56.5ms)
+2012-11-25T12:08:58+00:00 app[web.1]: Completed 200 OK in 98ms (Views: 46.4ms | ActiveRecord: 65.7ms)
+2012-11-25T12:08:58+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=108ms status=200 bytes=6611
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:58 +0000
+2012-11-25T12:08:58+00:00 app[web.1]: 
+2012-11-25T12:08:58+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (112.2ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=194ms status=200 bytes=12200
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (139.9ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 183ms (Views: 85.6ms | ActiveRecord: 86.9ms)
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content/destroy/115" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"id"=>"115"}
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (17.6ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 21.0ms | ActiveRecord: 19.0ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/115 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=56ms status=200 bytes=6127
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started POST "/admin/content/destroy/115" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"115"}
+2012-11-25T12:08:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 302 Found in 59ms
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/115 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=65ms status=302 bytes=119
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (118.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (139.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 171ms (Views: 79.2ms | ActiveRecord: 126.2ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=180ms status=200 bytes=11535
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"id"=>"114"}
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content/destroy/114" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (10.1ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 45ms (Views: 14.4ms | ActiveRecord: 20.5ms)
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/114 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=9ms service=53ms status=200 bytes=6127
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started POST "/admin/content/destroy/114" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:08:59+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"6njX6Lj0UqZPVaMQoJqG/VA2iSLtp5gr+o9+PIHjY9Q=", "id"=>"114"}
+2012-11-25T12:08:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 302 Found in 62ms
+2012-11-25T12:08:59+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/114 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=70ms status=302 bytes=119
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: 
+2012-11-25T12:08:59+00:00 app[web.1]: Started GET "/admin/content" for 107.20.108.171 at 2012-11-25 12:08:59 +0000
+2012-11-25T12:08:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:08:59+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (77.0ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (98.3ms)
+2012-11-25T12:08:59+00:00 app[web.1]: Completed 200 OK in 127ms (Views: 56.8ms | ActiveRecord: 106.5ms)
+2012-11-25T12:09:00+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:03+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:03+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:06+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:06+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:13+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:17+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:18+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#redirect as HTML
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]:   Parameters: {"from"=>"robots.txt"}
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/robots.txt" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (7.2ms)
+2012-11-25T12:09:22+00:00 app[web.1]: #<ActionView::MissingTemplate: Missing partial /sidebar/content with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/app/themes/bootstrap/views", "/app/themes/bootstrap/views", "/app/app/views", "/app/vendor/plugins/xml_sidebar/app/views", "/app/vendor/plugins/upload_progress/app/views", "/app/vendor/plugins/typo_textfilter_textile_and_markdown/app/views", "/app/vendor/plugins/typo_textfilter_textile/app/views", "/app/vendor/plugins/typo_textfilter_smartypants/app/views", "/app/vendor/plugins/typo_textfilter_none/app/views", "/app/vendor/plugins/typo_textfilter_markdown/app/views", "/app/vendor/plugins/typo_textfilter_lightbox/app/views", "/app/vendor/plugins/typo_textfilter_htmlfilter/app/views", "/app/vendor/plugins/typo_textfilter_flickr/app/views", "/app/vendor/plugins/typo_textfilter_code/app/views", "/app/vendor/plugins/typo_login_system/app/views", "/app/vendor/plugins/typo_converter/app/views", "/app/vendor/plugins/typo_avatar_gravatar/app/vi
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered errors/404.html.erb within layouts/default (93.9ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 404 Not Found in 107ms (Views: 79.7ms | ActiveRecord: 25.7ms)
+2012-11-25T12:09:22+00:00 app[web.1]: ews", "/app/vendor/plugins/tag_sidebar/app/views", "/app/vendor/plugins/static_sidebar/app/views", "/app/vendor/plugins/search_sidebar/app/views", "/app/vendor/plugins/rails_log_stdout/app/views", "/app/vendor/plugins/rails3_serve_static_assets/app/views", "/app/vendor/plugins/page_sidebar/app/views", "/app/vendor/plugins/meta_sidebar/app/views", "/app/vendor/plugins/livesearch_sidebar/app/views", "/app/vendor/plugins/filemanager/app/views", "/app/vendor/plugins/easy-ckeditor/app/views", "/app/vendor/plugins/dynamic_form/app/views", "/app/vendor/plugins/category_sidebar/app/views", "/app/vendor/plugins/calendar_date_select/app/views", "/app/vendor/plugins/authors_sidebar/app/views", "/app/vendor/plugins/archives_sidebar/app/vi
+ews", "/app/vendor/plugins/amazon_sidebar/app/views", "/app/vendor/plugins/prototype_legacy_helper/app/views", "/app/vendor/plugins/localization/app/views", "/app/vendor/bundle/ruby/1.9.1/gems/kaminari-0.14.1/app/views">
+2012-11-25T12:09:22+00:00 heroku[router]: at=info method=GET path=/robots.txt host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=127ms status=404 bytes=3136
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/articles.rss" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#index as RSS
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (20.0ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (11.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (10.6ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (13.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 200 OK in 85ms (Views: 39.3ms | ActiveRecord: 41.3ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (72.3ms)
+2012-11-25T12:10:23+00:00 app[web.1]: 
+2012-11-25T12:10:23+00:00 app[web.1]: Started GET "/articles.rss" for 66.249.76.192 at 2012-11-25 12:10:23 +0000
+2012-11-25T12:10:23+00:00 app[web.1]:   Processing by ArticlesController#index as RSS
+2012-11-25T12:10:23+00:00 app[web.1]: 
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (24.8ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (22.2ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (15.7ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (14.4ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (87.5ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Completed 200 OK in 104ms (Views: 44.3ms | ActiveRecord: 52.1ms)
+2012-11-25T12:10:23+00:00 heroku[router]: at=info method=GET path=/articles.rss host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=112ms status=304 bytes=0
+2012-11-25T12:09:22+00:00 app[web.1]:   Parameters: {"from"=>"robots.txt"}
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/robots.txt" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (7.2ms)
+2012-11-25T12:09:22+00:00 app[web.1]: #<ActionView::MissingTemplate: Missing partial /sidebar/content with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/app/themes/bootstrap/views", "/app/themes/bootstrap/views", "/app/app/views", "/app/vendor/plugins/xml_sidebar/app/views", "/app/vendor/plugins/upload_progress/app/views", "/app/vendor/plugins/typo_textfilter_textile_and_markdown/app/views", "/app/vendor/plugins/typo_textfilter_textile/app/views", "/app/vendor/plugins/typo_textfilter_smartypants/app/views", "/app/vendor/plugins/typo_textfilter_none/app/views", "/app/vendor/plugins/typo_textfilter_markdown/app/views", "/app/vendor/plugins/typo_textfilter_lightbox/app/views", "/app/vendor/plugins/typo_textfilter_htmlfilter/app/views", "/app/vendor/plugins/typo_textfilter_flickr/app/views", "/app/vendor/plugins/typo_textfilter_code/app/views", "/app/vendor/plugins/typo_login_system/app/views", "/app/vendor/plugins/typo_converter/app/views", "/app/vendor/plugins/typo_avatar_gravatar/app/vi
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered errors/404.html.erb within layouts/default (93.9ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 404 Not Found in 107ms (Views: 79.7ms | ActiveRecord: 25.7ms)
+2012-11-25T12:09:22+00:00 app[web.1]: ews", "/app/vendor/plugins/tag_sidebar/app/views", "/app/vendor/plugins/static_sidebar/app/views", "/app/vendor/plugins/search_sidebar/app/views", "/app/vendor/plugins/rails_log_stdout/app/views", "/app/vendor/plugins/rails3_serve_static_assets/app/views", "/app/vendor/plugins/page_sidebar/app/views", "/app/vendor/plugins/meta_sidebar/app/views", "/app/vendor/plugins/livesearch_sidebar/app/views", "/app/vendor/plugins/filemanager/app/views", "/app/vendor/plugins/easy-ckeditor/app/views", "/app/vendor/plugins/dynamic_form/app/views", "/app/vendor/plugins/category_sidebar/app/views", "/app/vendor/plugins/calendar_date_select/app/views", "/app/vendor/plugins/authors_sidebar/app/views", "/app/vendor/plugins/archives_sidebar/app/views", "/app/vendor/plugins/amazon_sidebar/app/views", "/app/vendor/plugins/prototype_legacy_helper/app/views", "/app/vendor/plugins/localization/app/views", "/app/vendor/bundle/ruby/1.9.1/gems/kaminari-0.14.1/app/views">
+2012-11-25T12:09:22+00:00 heroku[router]: at=info method=GET path=/robots.txt host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=127ms status=404 bytes=3136
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: 
+2012-11-25T12:09:22+00:00 app[web.1]: Started GET "/articles.rss" for 206.113.193.50 at 2012-11-25 12:09:22 +0000
+2012-11-25T12:09:22+00:00 app[web.1]:   Processing by ArticlesController#index
+ as RSS
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (20.0ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (11.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (10.6ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (13.1ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Completed 200 OK in 85ms (Views: 39.3ms | ActiveRecord: 41.3ms)
+2012-11-25T12:09:22+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (72.3ms)
+2012-11-25T12:10:23+00:00 app[web.1]: 
+2012-11-25T12:10:23+00:00 app[web.1]: Started GET "/articles.rss" for 66.249.76.192 at 2012-11-25 12:10:23 +0000
+2012-11-25T12:10:23+00:00 app[web.1]:   Processing by ArticlesController#index as RSS
+2012-11-25T12:10:23+00:00 app[web.1]: 
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (24.8ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (22.2ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (15.7ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered shared/_rss_item_article.rss.builder (14.4ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Rendered articles/index_rss_feed.rss.builder (87.5ms)
+2012-11-25T12:10:23+00:00 app[web.1]: Completed 200 OK in 104ms (Views: 44.3ms | ActiveRecord: 52.1ms)
+2012-11-25T12:10:23+00:00 heroku[router]: at=info method=GET path=/articles.rss host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=112ms status=304 bytes=0
+2012-11-25T12:10:33+00:00 app[web.1]:   Processing by ArticlesController#index as 
+2012-11-25T12:10:33+00:00 app[web.1]: Started GET "/" for 23.23.45.232 at 2012-11-25 12:10:33 +0000
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_content.html.erb (12.2ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_excerpt.html.erb (11.1ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_protected_article_content.html.erb (13.2ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_excerpt.html.erb (1.2ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_content.html.erb (1.4ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_protected_article_content.html.erb (1.5ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_excerpt.html.erb (10.1ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_content.html.erb (11.0ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_protected_article_content.html.erb (11.3ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_excerpt.html.erb (2.1ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_protected_article_content.ht
+ml.erb (2.6ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered articles/_article_content.html.erb (2.4ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered themes/bootstrap/views/articles/_article.html.erb (94.2ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered vendor/plugins/page_sidebar/app/views/page_sidebar/_content.html.erb (9.5ms)
+2012-11-25T12:10:33+00:00 app[web.1]: #<ActionView::MissingTemplate: Missing partial /sidebar/content with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/app/themes/bootstrap/views", "/app/themes/bootstrap/views", "/app/app/views", "/app/vendor/plugins/xml_sidebar/app/views", "/app/vendor/plugins/upload_progress/app/views", "/app/vendor/plugins/typo_textfilter_textile_and_markdown/app/views", "/app/vendor/plugins/typo_textfilter_textile/app/views", "/app/vendor/plugins/typo_textfilter_smartypants/app/views", "/app/vendor/plugins/typo_textfilter_none/app/views", "/app/vendor/plugins/typo_textfilter_markdown/app/views", "/app/vendor/plugins/typo_textfilter_lightbox/app/views", "/app/vendor/plugins/typo_textfilter_htmlfilter/app/views", "/app/vendor/plugins/typo_textfilter_flickr/app/views", "/app/vendor/plugins/typo_textfilter_code/app/views", "/app/vendor/plugins/typo_login_system/app/views", "/app/vendor/plugins/typo_converter/app/views", "/app/vendor/plugins/typo_avatar_gravatar/app/vi
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered themes/bootstrap/views/articles/index.html.erb within layouts/default (145.9ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Completed 200 OK in 163ms (Views: 81.3ms | ActiveRecord: 76.2ms)
+2012-11-25T12:10:33+00:00 app[web.1]: ews", "/app/vendor/plugins/tag_sidebar/app/views", "/app/vendor/plugins/static_sidebar/app/views", "/app/vendor/plugins/search_sidebar/app/views", "/app/vendor/plugins/rails_log_stdout/app/views", "/app/vendor/plugins/rails3_serve_static_assets/app/views", "/app/vendor/plugins/page_sidebar/app/views", "/app/vendor/plugins/meta_sidebar/app/views", "/app/vendor/plugins/livesearch_sidebar/app/views", "/app/vendor/plugins/filemanager/app/views", "/app/vendor/plugins/easy-ckeditor/app/views", "/app/vendor/plugins/dynamic_form/app/views", "/app/vendor/plugins/category_sidebar/app/views", "/app/vendor/plugins/calendar_date_select/app/views", "/app/vendor/plugins/authors_sidebar/app/views", "/app/vendor/plugins/archives_sidebar/app/views", "/app/vendor/plugins/amazon_sidebar/app/views", "/app/vendor/plugins/prototype_legacy_helper/app/views", "/app/vendor/plugins/localization/app/views", "/app/vendor/bundle/ruby/1.9.1/gems/kaminari-0.14.1/app/views">
+2012-11-25T12:10:33+00:00 heroku[router]: at=info method=GET path=/ host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=179ms status=200 bytes=4981
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:33 +0000
+2012-11-25T12:10:33+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:33+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (1.9ms)
+2012-11-25T12:10:33+00:00 app[web.1]: Completed 200 OK in 58ms (Views: 42.3ms | ActiveRecord: 8.7ms)
+2012-11-25T12:10:33+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=1ms connect=3ms service=66ms status=200 bytes=2123
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:33 +0000
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:33+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"KvAKkQjshqlAB8iXgUamNdWhKFYvZY2HRcbSwJqQc48=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:10:33+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:10:33+00:00 app[web.1]: Completed 302 Found in 43ms
+2012-11-25T12:10:33+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=56ms status=302 bytes=111
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:10:33 +0000
+2012-11-25T12:10:33+00:00 app[web.1]: 
+2012-11-25T12:10:33+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_overview.html.erb (1.3ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_welcome.html.erb (1.0ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_comments.html.erb (0.0ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_popular.html.erb (0.0ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_inbound.html.erb (0.0ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_posts.html.erb (2.9ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/_typo_dev.html.erb (1.9ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered admin/dashboard/index.html.erb within layouts/administration (18.8ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Completed 200 OK in 1039ms (Views: 25.5ms | ActiveRecord: 70.0ms)
+2012-11-25T12:10:34+00:00 heroku[router]: at=info method=GET path=/admin host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=1051ms status=200 bytes=11422
+2012-11-25T12:10:34+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:34+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:34 +0000
+2012-11-25T12:10:34+00:00 app[web.1]: 
+2012-11-25T12:10:34+00:00 app[web.1]: 
+2012-11-25T12:10:34+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=22ms status=200 bytes=2123
+2012-11-25T12:10:34+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (1.7ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 7.1ms | ActiveRecord: 6.5ms)
+2012-11-25T12:10:34+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:34 +0000
+2012-11-25T12:10:34+00:00 app[web.1]: 
+2012-11-25T12:10:34+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:34+00:00 app[web.1]: 
+2012-11-25T12:10:34+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQyQa/BJPlPdJJxplrrZJSB94Cz63hK+QIrhWRCzPOM=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:10:34+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:10:34+00:00 app[web.1]: Completed 302 Found in 35ms
+2012-11-25T12:10:34+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=4ms service=42ms status=302 bytes=111
+2012-11-25T12:10:34+00:00 app[web.1]: 
+2012-11-25T12:10:34+00:00 app[web.1]: 
+2012-11-25T12:10:34
++00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:10:34 +0000
+2012-11-25T12:10:34+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:10:37+00:00 app[web.1]: Rendered admin/content/new.html.erb within layouts/administration (47.8ms)
+2012-11-25T12:10:37+00:00 app[web.1]: Completed 200 OK in 97ms (Views: 45.6ms | ActiveRecord: 35.0ms)
+2012-11-25T12:10:37+00:00 heroku[router]: at=info method=GET path=/admin/content/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=110ms status=200 bytes=15042
+2012-11-25T12:10:37+00:00 app[web.1]: 
+2012-11-25T12:10:37+00:00 app[web.1]: Started POST "/admin/content/new" for 23.23.45.232 at 2012-11-25 12:10:37 +0000
+2012-11-25T12:10:37+00:00 app[web.1]: 
+2012-11-25T12:10:37+00:00 app[web.1]:   Processing by Admin::ContentController#new as 
+2012-11-25T12:10:37+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQyQa/BJPlPdJJxplrrZJSB94Cz63hK+QIrhWRCzPOM=", "current_editor"=>"visual", "user_textfilter"=>"none", "article"=>{"published"=>"1", "allow_pings"=>"0", "allow_comments"=>"1", "published_at"=>"November 25, 2012 12:10 PM GMT+0000 (UTC)", "password"=>"[FILTERED]", "permalink"=>"", "text_filter"=>"markdown smartypants", "post_type"=>"read", "title"=>"[CS169 Autograder] Blag Post 1234", "body_and_extended"=>"Lorem ipsum dolor sit amet 4444", "keywords"=>"", "excerpt"=>""}, "id"=>nil}
+2012-11-25T12:10:37+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:37+00:00 app[web.1]: Completed 302 Found in 121ms
+2012-11-25T12:10:37+00:00 heroku[router]: at=info method=POST path=/admin/content/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=498ms status=302 bytes=119
+2012-11-25T12:10:37+00:00 app[web.1]: 
+2012-11-25T12:10:37+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:37 +0000
+2012-11-25T12:10:37+00:00 app[web.1]: 
+2012-11-25T12:10:37+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:37+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (172.7ms)
+2012-11-25T12:10:37+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (198.6ms)
+2012-11-25T12:10:37+00:00 app[web.1]: Completed 200 OK in 314ms (Views: 104.0ms | ActiveRecord: 270.1ms)
+2012-11-25T12:10:37+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=337ms status=200 bytes=11523
+2012-11-25T12:10:37+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:37+00:00 app[web.1]: Started GET "/admin/content/destroy/116" for 23.23.45.232 at 2012-11-25 12:10:37 +0000
+2012-11-25T12:10:37+00:00 app[web.1]: 
+2012-11-25T12:10:37+00:00 app[web.1]: 
+2012-11-25T12:10:37+00:00 app[web.1]:   Parameters: {"id"=>"116"}
+2012-11-25T12:10:38+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (12.2ms)
+2012-11-25T12:10:38+00:00 app[web.1]: Completed 200 OK in 45ms (Views: 18.8ms | ActiveRecord: 18.9ms)
+2012-11-25T12:10:38+00:00 heroku[router]: at=info method=GET path=/admin/content/d
+estroy/116 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=52ms status=200 bytes=6127
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: Started POST "/admin/content/destroy/116" for 23.23.45.232 at 2012-11-25 12:10:38 +0000
+2012-11-25T12:10:38+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:38+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQyQa/BJPlPdJJxplrrZJSB94Cz63hK+QIrhWRCzPOM=", "id"=>"116"}
+2012-11-25T12:10:38+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:38+00:00 app[web.1]: Completed 302 Found in 115ms
+2012-11-25T12:10:38+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/116 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=124ms status=302 bytes=119
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:38+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:38 +0000
+2012-11-25T12:10:38+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (234.6ms)
+2012-11-25T12:10:38+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (279.4ms)
+2012-11-25T12:10:38+00:00 app[web.1]: Completed 200 OK in 359ms (Views: 133.0ms | ActiveRecord: 291.5ms)
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:38 +0000
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:38+00:00 app[web.1]: Completed 200 OK in 54ms (Views: 25.4ms | ActiveRecord: 26.3ms)
+2012-11-25T12:10:38+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (14.0ms)
+2012-11-25T12:10:38+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=81ms status=200 bytes=2123
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:38 +0000
+2012-11-25T12:10:38+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:38+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"mmBTn8zyNKaKUt2TCbgQaqvYkqTxhZiM0tr10ZIb+AY=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:10:38+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:10:38+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=100ms status=302 bytes=111
+2012-11-25T12:10:38+00:00 app[web.1]: Completed 302 Found in 77ms
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: 
+2012-11-25T12:10:38+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:10:38 +0000
+2012-11-25T12:10:38+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_overview.html.erb (1.5ms)
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_welcome.html.erb (2.4ms)
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_comments.html.erb (0.1ms)
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_popular.html.erb (0.1ms)
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_inbound.html.erb (0.0ms)
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_posts.html.erb (2.8ms)
+2012-11-25T12:10:39+00:00 app[web.1]: Rendered admin/dashboard/_typo_dev.html.erb (1.9ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/dashboard/index.html.erb within layouts/administration (82.2ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Completed 200 OK in 1271ms (Views: 93.4ms | ActiveRecord: 145.8ms)
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:40 +0000
+2012-11-25T12:10:40+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (79.6ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (104.6ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Completed 200 OK in 150ms (Views: 80.5ms | ActiveRecord: 62.0ms)
+2012-11-25T12:10:40+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=161ms status=200 bytes=10607
+2012-11-25T12:10:40+00:00 app[web.1]:   Parameters: {"id"=>nil}
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: Started GET "/admin/content/new" for 23.23.45.232 at 2012-11-25 12:10:40 +0000
+2012-11-25T12:10:40+00:00 app[web.1]:   Processing by Admin::ContentController#new as 
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/content/_categories.html.erb (4.9ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/content/_attachment.html.erb (1.0ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/content/_form.html.erb (32.7ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/shared/_edit.html.erb (44.3ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Rendered admin/content/new.html.erb within layouts/administration (66.8ms)
+2012-11-25T12:10:40+00:00 app[web.1]: Completed 200 OK in 112ms (Views: 55.9ms | ActiveRecord: 40.6ms)
+2012-11-25T12:10:40+00:00 heroku[router]: at=info method=GET path=/admin/content/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=124ms status=200 bytes=15042
+2012-11-25T12:10:40+00:00 app[web.1]: Started POST "/admin/content/new" for 23.23.45.232 at 2012-11-25 12:10:40 +0000
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"mmBTn8zyNKaKUt2TCbgQaqvYkqTxhZiM0tr10ZIb+AY=", "current_editor"=>"visual", "user_textfilter"=>"none", "article"=>{"published"=>"1", "allow_pings"=>"0", "allow_comments"=>"1", "published_at"=>"November 25, 2012 12:10 PM GMT+0000 (UTC)", "password"=>"[FILTERED]", "permalink"=>"", "text_filter"=>"markdown smartypants", "post_type"=>"read", "title"=>"[CS169 Autograder] Blag Post 1234", "body_and_extended"=>"Rawr", "keywords"=>"", "excerpt"=>""}, "id"=>nil}
+2012-11-25T12:10:40+00:00 app[web.1]:   Processing by Admin::ContentController#new as 
+2012-11-25T12:10:40+00:00 app[web.1]: Completed 302 Found in 107ms
+2012-11-25T12:10:40+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: 
+2012-11-25T12:10:40+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:40 +0000
+2012-11-25T12:10:40+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+
+The 'heroku' gem has been deprecated and replaced with the Heroku Toolbelt, download and install from https://toolbelt.heroku.com.
+
+2012-11-25T12:10:43+00:00 app[web.1]: Started GET "/admin/users/new" for 23.23.45.232 at 2012-11-25 12:10:43 +0000
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]:   Processing by Admin::UsersController#new as 
+2012-11-25T12:10:43+00:00 app[web.1]: Rendered admin/users/_form.html.erb (5.2ms)
+2012-11-25T12:10:43+00:00 app[web.1]: Completed 200 OK in 46ms (Views: 16.4ms | ActiveRecord: 21.5ms)
+2012-11-25T12:10:43+00:00 app[web.1]: Rendered admin/users/new.html.erb within layouts/administration (13.3ms)
+2012-11-25T12:10:43+00:00 heroku[router]: at=info method=GET path=/admin/users/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=54ms status=200 bytes=10743
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: Started POST "/admin/users/new" for 23.23.45.232 at 2012-11-25 12:10:43 +0000
+2012-11-25T12:10:43+00:00 app[web.1]:   Processing by Admin::UsersController#new as 
+2012-11-25T12:10:43+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"RzJ2yo175nNQBQDsXj9n5Zm2RGOHXXRKnvPgn0FavNU=", "user"=>{"login"=>"cs169_ag_publisher", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "email"=>"joe2@snow2.com", "profile_id"=>"2", "state"=>"active", "firstname"=>"", "lastname"=>"", "nickname"=>"", "editor"=>"visual", "text_filter_id"=>"4", "notify_via_email"=>"0", "notify_on_new_articles"=>"0", "notify_on_comments"=>"0"}, "id"=>nil}
+2012-11-25T12:10:43+00:00 app[web.1]: Rendered notification_mailer/_mail_header.html.erb (0.0ms)
+2012-11-25T12:10:43+00:00 app[web.1]: Rendered notification_mailer/notif_user.html.erb (0.4ms)
+2012-11-25T12:10:43+00:00 app[web.1]: sh: /usr/sbin/sendmail: not found
+2012-11-25T12:10:43+00:00 app[web.1]: Sent mail to joe2@snow2.com (45ms)
+2012-11-25T12:10:43+00:00 app[web.1]: Unable to send notification of create user email: #<Errno::EPIPE: Broken pipe>
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: Completed 302 Found in 120ms
+2012-11-25T12:10:43+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:10:43+00:00 heroku[router]: at=info method=POST path=/admin/users/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=6ms service=127ms status=302 bytes=117
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:10:43 +0000
+2012-11-25T12:10:43+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:10:43+00:00 app[web.1]: Completed 200 OK in 80ms (Views: 31.2ms | ActiveRecord: 85.4ms)
+2012-11-25T12:10:43+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (45.8ms)
+2012-11-25T12:10:43+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wai
+t=0ms connect=3ms service=89ms status=200 bytes=7033
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:10:43 +0000
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:10:43+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (40.6ms)
+2012-11-25T12:10:43+00:00 app[web.1]: Completed 200 OK in 74ms (Views: 28.7ms | ActiveRecord: 38.0ms)
+2012-11-25T12:10:43+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=85ms status=200 bytes=6902
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]: 
+2012-11-25T12:10:43+00:00 app[web.1]:   Parameters: {"id"=>"30"}
+2012-11-25T12:10:43+00:00 app[web.1]: Started GET "/admin/users/destroy/30" for 23.23.45.232 at 2012-11-25 12:10:43 +0000
+2012-11-25T12:10:43+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:10:44+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (8.7ms)
+2012-11-25T12:10:44+00:00 app[web.1]: Completed 200 OK in 50ms (Views: 14.0ms | ActiveRecord: 31.2ms)
+2012-11-25T12:10:44+00:00 heroku[router]: at=info method=GET path=/admin/users/destroy/30 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=12ms service=60ms status=200 bytes=6114
+2012-11-25T12:10:44+00:00 app[web.1]: Started POST "/admin/users/destroy/30" for 23.23.45.232 at 2012-11-25 12:10:44 +0000
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:10:44+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"RzJ2yo175nNQBQDsXj9n5Zm2RGOHXXRKnvPgn0FavNU=", "id"=>"30"}
+2012-11-25T12:10:44+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:10:44+00:00 app[web.1]: Completed 302 Found in 34ms
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:10:44 +0000
+2012-11-25T12:10:44+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:10:44+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (29.0ms)
+2012-11-25T12:10:44+00:00 app[web.1]: Completed 200 OK in 56ms (Views: 21.1ms | ActiveRecord: 56.9ms)
+2012-11-25T12:10:44+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=65ms status=200 bytes=6611
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:44 +0000
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:44+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (2.1ms)
+2012-11-25T12:10:44+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 7.7ms | ActiveRecord: 6.2ms)
+2012-11-25T12:10:44+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=22ms status=200 bytes=2123
+2012-11-25T12:10:44+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:44 +0000
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:44+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"uW9tXgeXt06F5QxMErq0gQz2I3hLVCNFMfLnQbciK3s=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:10:44+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:10:44+00:00 app[web.1]: Completed 302 Found in 34ms
+2012-11-25T12:10:44+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=40ms status=302 bytes=111
+2012-11-25T12:10:44+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:10:44 +0000
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]: 
+2012-11-25T12:10:44+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_overview.html.erb (1.1ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_welcome.html.erb (1.0ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_comments.html.erb (6.1ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_popular.html.erb (0.8ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_inbound.html.erb (0.0ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_posts.html.erb (2.7ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/_typo_dev.html.erb (1.8ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/dashboard/index.html.erb within layouts/administration (75.2ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Completed 200 OK in 1083ms (Views: 77.8ms | ActiveRecord: 62.8ms)
+2012-11-25T12:10:45+00:00 heroku[router]: at=info method=GET path=/admin host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=1092ms status=200 bytes=12489
+2012-11-25T12:10:45+00:00 app[web.1]: 
+2012-11-25T12:10:45+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:45 +0000
+2012-11-25T12:10:45+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:45+00:00 app[web.1]: 
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (80.2ms)
+2012-11-25T12:10:45+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (98.6ms)
+2012-11-25T12:10:45+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=131ms status=200 bytes=11390
+2012-11-25T12:10:45+00:00 app[web.1]: Completed 200 OK in 122ms (Views: 50.7ms | ActiveRecord: 66.2ms)
+2012-11-25T12:10:45+00:00 app[web.1]: 
+2012-11-25T12:10:45+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:45+00:00 app[web.1]: Started GET "/admin/content/destroy/117" for 23.23.45.232 at 2012-11-25 12:10:45 +0000
+2012-11-25T12:10:45+00:00 app[web.1]: 
+2012-11-25T12:10:45+00:00 app[web.1]:   Parameters: {"id"=>"117"}
+2012-11-25T12:10:45+00:00 app[web.1]: Completed 200 OK in 34ms (Views: 10.2ms | ActiveRecord: 19.7ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Started GET "/admin/content/edit/119" for 23.23.45.232 at 2012-11-25 12:10:50 +0000
+2012-11-25T12:10:50+00:00 app[web.1]:   Processing by Admin::ContentController#edit as 
+2012-11-25T12:10:50+00:00 app[web.1]:   Parameters: {"id"=>"119"}
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/content/_categories.html.erb (6.0ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/content/_attachment.html.erb (8.3ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/content/_form.html.erb (33.1ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/shared/_edit.html.erb (35.1ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/content/new.html.erb within layouts/administration (43.8ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Completed 200 OK in 77ms (Views: 28.4ms | ActiveRecord: 41.3ms)
+2012-11-25T12:10:50+00:00 heroku[router]: at=info method=GET path=/admin/content/edit/119 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=133ms status=200 bytes=16071
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]:   Processing by Admin::ContentController#merge_with as 
+2012-11-25T12:10:50+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"sWFyBf62nqYWnXtSzh9HjY+5SP3cF1XrW5FRXS+GL9A=", "merge_with"=>"120", "id"=>"119"}
+2012-11-25T12:10:50+00:00 app[web.1]: Started POST "/admin/content/merge_with/119" for 23.23.45.232 at 2012-11-25 12:10:50 +0000
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: Completed 500 Internal Server Error in 65ms
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: : INSERT INTO "contents" ("allow_comments", "allow_pings", "author", "body", "created_at", "excerpt", "extended", "guid", "name", "parent_id", "permalink", "post_type", "published", "published_at", "settings", "state", "text_filter_id", "title", "type", "updated_at", "user_id", "whiteboard", "id") VALUES ('t', 'f', 'admin', 'Derp derp derp derp 12344321
+2012-11-25T12:10:50+00:00 app[web.1]: Lorem ipsum dolor sit amet', '2012-11-25 12:10:49.614458', '', '', 'a969c233-97b5-4f2a-9152-c9e5c07f08a8', NULL, NULL, 'cs169-autograder-blag-post-a', 'read', 't', '2012-11-25 12:10:00.000000', '--- 
+2012-11-25T12:10:50+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  null value in column "id" violates not-null constraint
+2012-11-25T12:10:50+00:00 app[web.1]: password: ""
+2012-11-25T12:10:50+00:00 app[web.1]: ', 'published', 4, '[CS169 Autograder] Blag Post A', 'Article', '2012-11-25 12:10:49.614458', 1, NULL, NULL) RETURNING "id"):
+2012-11-25T12:10:50+00:00 app[web.1]:   app/controllers/admin/content_controller.rb:76:in `merge_with'
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 heroku[router]: at=info method=POST path=/admin/content/merge_with/119 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=75ms status=500 bytes=728
+2012-11-25T12:10:50+00:00 app[web.1]:
+ 
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:50 +0000
+2012-11-25T12:10:50+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (97.2ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (116.4ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Completed 200 OK in 147ms (Views: 59.4ms | ActiveRecord: 126.7ms)
+2012-11-25T12:10:50+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=154ms status=200 bytes=12174
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: Started GET "/admin/content/destroy/119" for 23.23.45.232 at 2012-11-25 12:10:50 +0000
+2012-11-25T12:10:50+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:50+00:00 app[web.1]:   Parameters: {"id"=>"119"}
+2012-11-25T12:10:50+00:00 app[web.1]: Completed 200 OK in 34ms (Views: 10.9ms | ActiveRecord: 18.5ms)
+2012-11-25T12:10:50+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (7.8ms)
+2012-11-25T12:10:50+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/119 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=41ms status=200 bytes=6127
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:50+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"sWFyBf62nqYWnXtSzh9HjY+5SP3cF1XrW5FRXS+GL9A=", "id"=>"119"}
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: Started POST "/admin/content/destroy/119" for 23.23.45.232 at 2012-11-25 12:10:50 +0000
+2012-11-25T12:10:50+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:50+00:00 app[web.1]: Completed 302 Found in 56ms
+2012-11-25T12:10:50+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/119 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=64ms status=302 bytes=119
+2012-11-25T12:10:50+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:50 +0000
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]: 
+2012-11-25T12:10:50+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:51+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (92.6ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (109.9ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Completed 200 OK in 133ms (Views: 61.0ms | ActiveRecord: 109.9ms)
+2012-11-25T12:10:51+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=141ms status=200 bytes=11522
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: Started GET "/admin/content/destroy/120" for 23.23.45.232 at 2012-11-25 12:10:51 +0000
+2012-11-25T12:10:51+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:51+00:00 app[web.1]:   Parameters: {"id"=>"120"}
+2012-11-25T12:10:51+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (8.4ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Completed 200 OK in 49ms (Views: 11.7ms | ActiveRecord: 31.4ms)
+2012-11-25T12:10:51+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/120 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=58ms status=200 bytes=6127
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: Started POST "/admin/content/destroy/120" for 23.23.45.232 at 2012-11-25 12:10:51 +0000
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:51+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"sWFyBf62nqYWnXtSzh9HjY+5SP3cF1XrW5FRXS+GL9A=", "id"=>"120"}
+2012-11-25T12:10:51+00:00 app[web.1]: Completed 302 Found in 122ms
+2012-11-25T12:10:51+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:51 +0000
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:51+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (72.4ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (91.4ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Completed 200 OK in 116ms (Views: 48.8ms | ActiveRecord: 116.9ms)
+2012-11-25T12:10:51+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=124ms status=200 bytes=10745
+2012-11-25T12:10:51+00:00 app[web.1]: Started GET "/accounts/login" for 23.
+23.45.232 at 2012-11-25 12:10:51 +0000
+2012-11-25T12:10:51+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=23ms status=200 bytes=2123
+2012-11-25T12:10:51+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 8.3ms | ActiveRecord: 6.8ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (2.3ms)
+2012-11-25T12:10:51+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:51 +0000
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLw9Y3Dq/bC5sS5XsrjT8hToEGZdRObm3UvwmSav8KE=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:10:51+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:51+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:10:51+00:00 app[web.1]: Completed 302 Found in 26ms
+2012-11-25T12:10:51+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=32ms status=302 bytes=111
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]: 
+2012-11-25T12:10:51+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:10:51+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:10:51 +0000
+2012-11-25T12:10:55+00:00 app[web.1]: Started GET "/admin/content/destroy/121" for 23.23.45.232 at 2012-11-25 12:10:55 +0000
+2012-11-25T12:10:55+00:00 app[web.1]:   Parameters: {"id"=>"121"}
+2012-11-25T12:10:55+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:55+00:00 app[web.1]: 
+2012-11-25T12:10:55+00:00 app[web.1]: 
+2012-11-25T12:10:55+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (9.8ms)
+2012-11-25T12:10:55+00:00 app[web.1]: Completed 200 OK in 60ms (Views: 22.8ms | ActiveRecord: 27.4ms)
+2012-11-25T12:10:55+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/121 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=68ms status=200 bytes=6127
+2012-11-25T12:10:55+00:00 app[web.1]: 
+2012-11-25T12:10:55+00:00 app[web.1]: Started POST "/admin/content/destroy/121" for 23.23.45.232 at 2012-11-25 12:10:55 +0000
+2012-11-25T12:10:55+00:00 app[web.1]: 
+2012-11-25T12:10:55+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:55+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLw9Y3Dq/bC5sS5XsrjT8hToEGZdRObm3UvwmSav8KE=", "id"=>"121"}
+2012-11-25T12:10:55+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:55+00:00 app[web.1]: Completed 302 Found in 80ms
+2012-11-25T12:10:55+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/121 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=87ms status=302 bytes=119
+2012-11-25T12:10:55+00:00 app[web.1]: 
+2012-11-25T12:10:55+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:55 +0000
+2012-11-25T12:10:55+00:00 app[web.1]: 
+2012-11-25T12:10:55+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:56+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (283.8ms)
+2012-11-25T12:10:56+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (345.5ms)
+2012-11-25T12:10:56+00:00 app[web.1]: Completed 200 OK in 425ms (Views: 258.7ms | ActiveRecord: 210.1ms)
+2012-11-25T12:10:56+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=447ms status=200 bytes=11522
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: Started GET "/admin/content/destroy/122" for 23.23.45.232 at 2012-11-25 12:10:56 +0000
+2012-11-25T12:10:56+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:56+00:00 app[web.1]:   Parameters: {"id"=>"122"}
+2012-11-25T12:10:56+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (32.5ms)
+2012-11-25T12:10:56+00:00 app[web.1]: Completed 200 OK in 137ms (Views: 77.7ms | ActiveRecord: 37.8ms)
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: Started POST "/admin/content/destroy/122" for 23.23.45.232 at 2012-11-25 12:10:56 +0000
+2012-11-25T12:10:56+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:10:56+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLw9Y3Dq/bC5sS5XsrjT8hToEGZdRObm3UvwmSav8KE=", "id"=>"122"}
+2012-11-25T12:10:56+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:56+00:00 app[web.1]: Completed 302 Found in 157ms
+2012-11-25T12:10:56+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/122 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=175ms status=302 bytes=119
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:56 +0000
+2012-11-25T12:10:56+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:10:56+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (85.4ms)
+2012-11-25T12:10:56+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (105.8ms)
+2012-11-25T12:10:56+00:00 app[web.1]: Completed 200 OK in 142ms (Views: 65.8ms | ActiveRecord: 172.4ms)
+2012-11-25T12:10:56+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=166ms status=200 bytes=10745
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:56 +0000
+2012-11-25T12:10:56+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:56+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (1.7ms)
+2012-11-25T12:10:56+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=25ms status=200 bytes=2123
+2012-11-25T12:10:56+00:00 app[web.1]: Completed 200 OK in 17ms (Views: 8.4ms | ActiveRecord: 6.1ms)
+2012-11-25T12:10:56+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:10:56+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4JVES/VrS30RBNNB0Sf31zEjuTRUkh+cf9RnqoNgL/w=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:10:56+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:10:56 +0000
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:10:56+00:00 app[web.1]: Completed 302 Found in 31ms
+2012-11-25T12:10:56+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=37ms status=302 bytes=111
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]: 
+2012-11-25T12:10:56+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:10:56+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:10:56 +0000
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_overview.html.erb (1.5ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_welcome.html.erb (3.6ms)
+2012-11-25T12:10:58+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_comments.html.erb (0.1ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_popular.html.erb (0.0ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_inbound.html.erb (0.0ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_typo_dev.html.erb (4.4ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/_posts.html.erb (7.6ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/dashboard/index.html.erb within layouts/administration (161.1ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Completed 200 OK in 1958ms (Views: 168.1ms | ActiveRecord: 71.1ms)
+2012-11-25T12:10:58+00:00 heroku[router]: at=info method=GET path=/admin host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=1968ms status=200 bytes=11422
+2012-11-25T12:10:58+00:00 app[web.1]: 
+2012-11-25T12:10:58+00:00 app[web.1]: 
+2012-11-25T12:10:58+00:00 app[web.1]: Started GET "/admin/content/new" for 23.23.45.232 at 2012-11-25 12:10:58 +0000
+2012-11-25T12:10:58+00:00 app[web.1]:   Processing by Admin::ContentController#new as 
+2012-11-25T12:10:58+00:00 app[web.1]:   Parameters: {"id"=>nil}
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/content/_categories.html.erb (3.2ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/content/_form.html.erb (23.0ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/shared/_edit.html.erb (24.4ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/content/_attachment.html.erb (0.9ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Rendered admin/content/new.html.erb within layouts/administration (32.5ms)
+2012-11-25T12:10:58+00:00 app[web.1]: Completed 200 OK in 84ms (Views: 24.3ms | ActiveRecord: 43.5ms)
+2012-11-25T12:10:58+00:00 heroku[router]: at=info method=GET path=/admin/content/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=110ms status=200 bytes=15042
+2012-11-25T12:10:58+00:00 app[web.1]: 
+2012-11-25T12:10:58+00:00 app[web.1]: Started POST "/admin/content/new" for 23.23.45.232 at 2012-11-25 12:10:58 +0000
+2012-11-25T12:10:58+00:00 app[web.1]: 
+2012-11-25T12:10:58+00:00 app[web.1]:   Processing by Admin::ContentController#new as 
+2012-11-25T12:10:58+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4JVES/VrS30RBNNB0Sf31zEjuTRUkh+cf9RnqoNgL/w=", "current_editor"=>"visual", "user_textfilter"=>"none", "article"=>{"published"=>"1", "allow_pings"=>"0", "allow_comments"=>"1", "published_at"=>"November 25, 2012 12:10 PM GMT+0000 (UTC)", "password"=>"[FILTERED]", "permalink"=>"", "text_filter"=>"markdown smartypants", "post_type"=>"read", "title"=>"[CS169 Autograder] Blag Post A", "body_and_extended"=>"Derp derp derp derp 12344321", "keywords"=>"", "excerpt"=>""}, "id"=>nil}
+2012-11-25T12:10:59+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:10:59+00:00 app[web.1]: Completed 302 Found in 128ms
+2012-11-25T12:10:59+00:00 heroku[router]: at=info method=POST path=/admin/content/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=145ms status=302 bytes=119
+2012-11-25T12:10:59+00:00 app[web.1]: 
+2012-11-25T12:10:59+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:10:59 +0000
+2012-11-25T12:10:59+00:00 app[web.1]: 
+2012-11-25T12:10:59+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:01+00:00 app[web.1]: Started GET "/admin/content/destroy/123" for 23.23.45.232 at 2012-11-25 12:11:01 +0000
+2012-11-25T12:11:01+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/123 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=45ms status=200 bytes=6127
+2012-11-25T12:11:01+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (7.5ms)
+2012-11-25T12:11:01+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 11.2ms | ActiveRecord: 22.0ms)
+2012-11-25T12:11:01+00:00 app[web.1]: Started POST "/admin/content/destroy/123" for 23.23.45.232 at 2012-11-25 12:11:01 +0000
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:01+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4JVES/VrS30RBNNB0Sf31zEjuTRUkh+cf9RnqoNgL/w=", "id"=>"123"}
+2012-11-25T12:11:01+00:00 app[web.1]: Completed 302 Found in 68ms
+2012-11-25T12:11:01+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/123 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=75ms status=302 bytes=119
+2012-11-25T12:11:01+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:01 +0000
+2012-11-25T12:11:01+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:01+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:11:01+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (171.3ms)
+2012-11-25T12:11:01+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (189.7ms)
+2012-11-25T12:11:01+00:00 app[web.1]: Completed 200 OK in 216ms (Views: 123.6ms | ActiveRecord: 139.4ms)
+2012-11-25T12:11:01+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=224ms status=200 bytes=11522
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: Started GET "/admin/content/destroy/124" for 23.23.45.232 at 2012-11-25 12:11:01 +0000
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:01+00:00 app[web.1]:   Parameters: {"id"=>"124"}
+2012-11-25T12:11:01+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (7.5ms)
+2012-11-25T12:11:01+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 13.2ms | ActiveRecord: 22.7ms)
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: Started POST "/adm
+in/content/destroy/124" for 23.23.45.232 at 2012-11-25 12:11:01 +0000
+2012-11-25T12:11:01+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:01+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4JVES/VrS30RBNNB0Sf31zEjuTRUkh+cf9RnqoNgL/w=", "id"=>"124"}
+2012-11-25T12:11:01+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:01+00:00 app[web.1]: Completed 302 Found in 80ms
+2012-11-25T12:11:01+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/124 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=88ms status=302 bytes=119
+2012-11-25T12:11:01+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: 
+2012-11-25T12:11:01+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:01 +0000
+2012-11-25T12:11:02+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (78.7ms)
+2012-11-25T12:11:02+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (100.3ms)
+2012-11-25T12:11:02+00:00 app[web.1]: Completed 200 OK in 125ms (Views: 61.2ms | ActiveRecord: 119.0ms)
+2012-11-25T12:11:02+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=133ms status=200 bytes=10745
+2012-11-25T12:11:02+00:00 app[web.1]: 
+2012-11-25T12:11:02+00:00 app[web.1]: 
+2012-11-25T12:11:02+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:11:02 +0000
+2012-11-25T12:11:02+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:11:02+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (1.8ms)
+2012-11-25T12:11:02+00:00 app[web.1]: Completed 200 OK in 16ms (Views: 7.9ms | ActiveRecord: 6.4ms)
+2012-11-25T12:11:02+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=4ms service=24ms status=200 bytes=2123
+2012-11-25T12:11:02+00:00 app[web.1]: 
+2012-11-25T12:11:02+00:00 app[web.1]: 
+2012-11-25T12:11:02+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dbP9uzt+69QIe/yLg9xoCxBmhhLRx1JBfj2vIUIVdo=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:11:02+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:11:02 +0000
+2012-11-25T12:11:02+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:11:02+00:00 app[web.1]: Completed 302 Found in 27ms
+2012-11-25T12:11:02+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:11:02+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=37ms status=302 bytes=111
+2012-11-25T12:11:02+00:00 app[web.1]: 
+2012-11-25T12:11:02+00:00 app[web.1]: 
+2012-11-25T12:11:02+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:11:02+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:11:02 +0000
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_overview.html.erb (2.4ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_welcome.html.erb (1.0ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_comments.html.erb (0.1ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_inbound.html.erb (0.0ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_posts.html.erb (3.2ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_popular.html.erb (0.0ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/_typo_dev.html.erb (2.4ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/dashboard/index.html.erb within layouts/administration (24.7ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Completed 200 OK in 1518ms (Views: 32.0ms | ActiveRecord: 68.3ms)
+2012-11-25T12:11:03+00:00 heroku[router]: at=info method=GET path=/admin host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=1ms service=1526ms status=200 bytes=11422
+2012-11-25T12:11:03+00:00 app[web.1]:   Processing by Admin::UsersController#new as 
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: Started GET "/admin/users/new" for 23.23.45.232 at 2012-11-25 12:11:03 +0000
+2012-11-25T12:11:03+00:00 app[web.1]:   Parameters: {"id"=>nil}
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/users/_form.html.erb (6.9ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered admin/users/new.html.erb within layouts/administration (18.7ms)
+2012-11-25T12:11:03+00:00 heroku[router]: at=info method=GET path=/admin/users/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=70ms status=200 bytes=10743
+2012-11-25T12:11:03+00:00 app[web.1]: Completed 200 OK in 61ms (Views: 21.9ms | ActiveRecord: 33.1ms)
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: Started POST "/admin/users/new" for 23.23.45.232 at 2012-11-25 12:11:03 +0000
+2012-11-25T12:11:03+00:00 app[web.1]:   Processing by Admin::UsersController#new as 
+2012-11-25T12:11:03+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dbP9uzt+69QIe/yLg9xoCxBmhhLRx1JBfj2vIUIVdo=", "user"=>{"login"=>"cs169_ag_publisher", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "email"=>"joe2@snow2.com", "profile_id"=>"2", "state"=>"active", "firstname"=>"", "lastname"=>"", "nickname"=>"", "editor"=>"visual", "text_filter_id"=>"4", "notify_via_email"=>"0", "notify_on_new_articles"=>"0", "notify_on_comments"=>"0"}, "id"=>nil}
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered notification_mailer/_mail_header.html.erb (0.0ms)
+2012-11-25T12:11:03+00:00 app[web.1]: Rendered notification_mailer/notif_user.html.erb (0.6ms)
+2012-11-25T12:11:03+00:00 app[web.1]: sh: /usr/sbin/sendmail: not found
+2012-11-25T12:11:03+00:00 app[web.1]: Sent mail to joe2@snow2.com (38ms)
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: Completed 302 Found in 117ms
+2012-11-25T12:11:03+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:11:03+00:00 heroku[router]: at=info method=POST path=/admin/users/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=2ms connect=4ms service=126ms status=302 bytes=117
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: 
+2012-11-25T12:11:03+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:11:03 +0000
+2012-11-25T12:11:03+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:11:06+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=4ms service=218ms status=200 bytes=11391
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]: Started GET "/admin/content/destroy/125" for 23.23.45.232 at 2012-11-25 12:11:06 +0000
+2012-11-25T12:11:06+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:06+00:00 app[web.1]:   Parameters: {"id"=>"125"}
+2012-11-25T12:11:06+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (8.4ms)
+2012-11-25T12:11:06+00:00 app[web.1]: Completed 200 OK in 35ms (Views: 12.0ms | ActiveRecord: 18.3ms)
+2012-11-25T12:11:06+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/125 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=48ms status=200 bytes=6127
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]: Started POST "/admin/content/destroy/125" for 23.23.45.232 at 2012-11-25 12:11:06 +0000
+2012-11-25T12:11:06+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"0dbP9uzt+69QIe/yLg9xoCxBmhhLRx1JBfj2vIUIVdo=", "id"=>"125"}
+2012-11-25T12:11:06+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/125 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=3ms service=58ms status=302 bytes=119
+2012-11-25T12:11:06+00:00 app[web.1]: Completed 302 Found in 52ms
+2012-11-25T12:11:06+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:06+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:06 +0000
+2012-11-25T12:11:06+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (65.9ms)
+2012-11-25T12:11:06+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (82.5ms)
+2012-11-25T12:11:06+00:00 app[web.1]: Completed 200 OK in 107ms (Views: 42.9ms | ActiveRecord: 100.3ms)
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:11:06+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:11:06 +0000
+2012-11-25T12:11:06+00:00 app[web.1]: 
+2012-11-25T12:11:06+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=115ms status=200 bytes=10745
+2012-11-25T12:11:06+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 6.6ms | ActiveRecord: 6.3ms)
+2012-11-25T12:11:06+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (1.6ms)
+2012-11-25T12:11:07+00:00 app[web.1]: 
+2012-11-
+25T12:11:07+00:00 app[web.1]: 
+2012-11-25T12:11:07+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:11:07 +0000
+2012-11-25T12:11:07+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:11:07+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "user"=>{"login"=>"admin", "password"=>"[FILTERED]"}}
+2012-11-25T12:11:07+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:11:07+00:00 app[web.1]: Completed 302 Found in 32ms
+2012-11-25T12:11:07+00:00 heroku[router]: at=info method=POST path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=39ms status=302 bytes=111
+2012-11-25T12:11:07+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:11:07+00:00 app[web.1]: 
+2012-11-25T12:11:07+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:11:07 +0000
+2012-11-25T12:11:07+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_overview.html.erb (1.2ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_welcome.html.erb (1.0ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_comments.html.erb (0.0ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_popular.html.erb (0.0ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_inbound.html.erb (0.1ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_posts.html.erb (4.1ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/_typo_dev.html.erb (2.3ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Completed 200 OK in 984ms (Views: 25.7ms | ActiveRecord: 70.4ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/dashboard/index.html.erb within layouts/administration (19.9ms)
+2012-11-25T12:11:08+00:00 heroku[router]: at=info method=GET path=/admin host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=991ms status=200 bytes=11422
+2012-11-25T12:11:08+00:00 app[web.1]: Started GET "/admin/users/new" for 23.23.45.232 at 2012-11-25 12:11:08 +0000
+2012-11-25T12:11:08+00:00 app[web.1]:   Processing by Admin::UsersController#new as 
+2012-11-25T12:11:08+00:00 app[web.1]:   Parameters: {"id"=>nil}
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/users/_form.html.erb (6.1ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Completed 200 OK in 43ms (Views: 16.0ms | ActiveRecord: 21.7ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/users/new.html.erb within layouts/administration (13.4ms)
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Started POST "/admin/users/new" for 23.23.45.232 at 2012-11-25 12:11:08 +0000
+2012-11-25T12:11:08+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "user"=>{"login"=>"cs169_ag_publisher", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", 
+"email"=>"joe2@snow2.com", "profile_id"=>"2", "state"=>"active", "firstname"=>"", "lastname"=>"", "nickname"=>"", "editor"=>"visual", "text_filter_id"=>"4", "notify_via_email"=>"0", "notify_on_new_articles"=>"0", "notify_on_comments"=>"0"}, "id"=>nil}
+2012-11-25T12:11:08+00:00 app[web.1]:   Processing by Admin::UsersController#new as 
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered notification_mailer/notif_user.html.erb (0.4ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered notification_mailer/_mail_header.html.erb (0.0ms)
+2012-11-25T12:11:08+00:00 app[web.1]: sh: /usr/sbin/sendmail: not found
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Sent mail to joe2@snow2.com (33ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Unable to send notification of create user email: #<Errno::EPIPE: Broken pipe>
+2012-11-25T12:11:08+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:11:08+00:00 app[web.1]: Completed 302 Found in 90ms
+2012-11-25T12:11:08+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:11:08 +0000
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:11:08+00:00 heroku[router]: at=info method=POST path=/admin/users/new host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=96ms status=302 bytes=117
+2012-11-25T12:11:08+00:00 app[web.1]: Completed 200 OK in 147ms (Views: 103.4ms | ActiveRecord: 70.9ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (42.9ms)
+2012-11-25T12:11:08+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:11:08+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=1ms connect=3ms service=159ms status=200 bytes=7033
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Started GET "/accounts/login" for 23.23.45.232 at 2012-11-25 12:11:08 +0000
+2012-11-25T12:11:08+00:00 app[web.1]: Rendered accounts/login.html.erb within layouts/accounts (1.8ms)
+2012-11-25T12:11:08+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 9.2ms | ActiveRecord: 6.7ms)
+2012-11-25T12:11:08+00:00 heroku[router]: at=info method=GET path=/accounts/login host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=1ms connect=4ms service=24ms status=200 bytes=2123
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Started POST "/accounts/login" for 23.23.45.232 at 2012-11-25 12:11:08 +0000
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"SDsHWydoNWymCVMHqcupnFrGxzs1iROq6iYRFO6kDx4=", "user"=>{"login"=>"cs169_ag_publisher", "password"=>"[FILTERED]"}}
+2012-11-25T12:11:08+00:00 app[web.1]:   Processing by AccountsController#login as 
+2012-11-25T12:11:08+00:00 app[web.1]: Completed 302 Found in 29ms
+2012-11-25T12:11:08+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: 
+2012-11-25T12:11:08+00:00 app[web.1]: Started GET "/admin" for 23.23.45.232 at 2012-11-25 12:11:08 +0000
+2012-11-25T12:11:08+00:00 app[web.1]:   Processing by Admin::DashboardController#index as 
+2012-11-25T12:11:11+00:00 app[web.1]: Rendered admin/content/_form.html.erb (33.3ms)
+2012-11-25T12:11:11+00:00 app[web.1]: Rendered admin/shared/_edit.html.erb (34.5ms)
+2012-11-25T12:11:11+00:00 app[web.1]: Completed 200 OK in 75ms (Views: 26.9ms | ActiveRecord: 39.3ms)
+2012-11-25T12:11:11+00:00 app[web.1]: Rendered admin/content/new.html.erb within layouts/administration (40.2ms)
+2012-11-25T12:11:11+00:00 heroku[router]: at=info method=GET path=/admin/content/edit/126 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=4ms service=86ms status=200 bytes=14619
+2012-11-25T12:11:11+00:00 app[web.1]: Started POST "/admin/content/new/126" for 23.23.45.232 at 2012-11-25 12:11:11 +0000
+2012-11-25T12:11:11+00:00 app[web.1]: 
+2012-11-25T12:11:11+00:00 app[web.1]: 
+2012-11-25T12:11:11+00:00 app[web.1]:   Processing by Admin::ContentController#new as 
+2012-11-25T12:11:11+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"SDsHWydoNWymCVMHqcupnFrGxzs1iROq6iYRFO6kDx4=", "current_editor"=>"visual", "user_textfilter"=>"markdown smartypants", "article"=>{"published"=>"1", "allow_pings"=>"0", "allow_comments"=>"1", "published_at"=>"November 25, 2012 12:11 PM GMT+0000 (UTC)", "password"=>"[FILTERED]", "permalink"=>"cs169-autograder-blag-post-a", "text_filter"=>"markdown smartypants", "post_type"=>"read", "title"=>"[CS169 Autograder] Blag Post A", "body_and_extended"=>"Derp derp derp derp 12344321", "keywords"=>"", "excerpt"=>""}, "merge_with"=>"127", "id"=>"126"}
+2012-11-25T12:11:11+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:11+00:00 app[web.1]: Completed 302 Found in 63ms
+2012-11-25T12:11:11+00:00 app[web.1]: 
+2012-11-25T12:11:11+00:00 app[web.1]: 
+2012-11-25T12:11:11+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:11 +0000
+2012-11-25T12:11:11+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:11+00:00 heroku[router]: at=info method=POST path=/admin/content/new/126 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=77ms status=302 bytes=119
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (126.3ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 168ms (Views: 76.9ms | ActiveRecord: 131.4ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=176ms status=200 bytes=11532
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (143.7ms)
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (253.9ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (278.3ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 304ms (Views: 195.2ms | ActiveRecord: 102.6ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=1ms connect=5ms service=328ms status=200 bytes=12247
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (40.5ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 82ms (Views: 31.7ms | ActiveRecord: 43.4ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=90ms status=200 bytes=6902
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/users/destroy/32" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:11:12+00:00 app[web.1]:   Parameters: {"id"=>"32"}
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 41ms (Views: 15.5ms | ActiveRecord: 18.3ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (9.4ms)
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started POST "/admin/users/destroy/32" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:11:12+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "id"=>"32"}
+2012-11-25T12:11:12+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 302 Found in 36ms
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=POST path=/admin/users/destroy/32 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=42ms status=302 bytes=117
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (28.2ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 52ms (Views: 19.2ms | ActiveRecord: 58.6ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=4ms service=62ms status=200 bytes=6611
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (129.8ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 180ms (Views: 78.2ms | ActiveRecord: 95.2ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (150.7ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=189ms status=200 bytes=12200
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/content/destroy/127" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:12+00:00 app[web.1]:   Parameters: {"id"=>"127"}
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (7.7ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 11.8ms | ActiveRecord: 17.8ms)
+2012-11-25T12:11:13+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/127 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=45ms status=200 bytes=6127
+2012-11-25T12:11:1
+3+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started POST "/admin/content/destroy/127" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:13+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "id"=>"127"}
+2012-11-25T12:11:13+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 302 Found in 60ms
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (139.4ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (225.9ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 272ms (Views: 167.9ms | ActiveRecord: 135.7ms)
+2012-11-25T12:11:13+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=289ms status=200 bytes=11535
+2012-11-25T12:11:13+00:00 app[web.1]: Started GET "/admin/content/destroy/126" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:13+00:00 app[web.1]:   Parameters: {"id"=>"126"}
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (8.9ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 12.9ms | ActiveRecord: 23.0ms)
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started POST "/admin/content/destroy/126" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:13+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "id"=>"126"}
+2012-11-25T12:11:11+00:00 app[web.1]: 
+2012-11-25T12:11:11+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:11 +0000
+2012-11-25T12:11:11+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:11+00:00 heroku[router]: at=info method=POST path=/admin/content/new/126 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=77ms status=302 bytes=119
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (126.3ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 168ms (Views: 76.9ms | ActiveRecord: 131.4ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=176ms status=200 bytes=11532
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (143.7ms)
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (253.9ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (278.3ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 304ms (Views: 195.2ms | ActiveRecord: 102.6ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=1ms connect=5ms service=328ms status=200 bytes=12247
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (40.5ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 82ms (Views: 31.7ms | ActiveRecord: 43.4ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=90ms status=200 bytes=6902
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/users/destroy/32" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:11:12+00:00 app[web.1]:   Parameters: {"id"=>"32"}
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 41ms (Views: 15.5ms | ActiveRecord: 18.3ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (9.4ms)
+2012-11-25T12:11:12+00:00 app[
+web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started POST "/admin/users/destroy/32" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#destroy as 
+2012-11-25T12:11:12+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "id"=>"32"}
+2012-11-25T12:11:12+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/users
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 302 Found in 36ms
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/users" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::UsersController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=POST path=/admin/users/destroy/32 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=42ms status=302 bytes=117
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/users/index.html.erb within layouts/administration (28.2ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 52ms (Views: 19.2ms | ActiveRecord: 58.6ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/users host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=4ms service=62ms status=200 bytes=6611
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (129.8ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Completed 200 OK in 180ms (Views: 78.2ms | ActiveRecord: 95.2ms)
+2012-11-25T12:11:12+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (150.7ms)
+2012-11-25T12:11:12+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=189ms status=200 bytes=12200
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]: Started GET "/admin/content/destroy/127" for 23.23.45.232 at 2012-11-25 12:11:12 +0000
+2012-11-25T12:11:12+00:00 app[web.1]: 
+2012-11-25T12:11:12+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:12+00:00 app[web.1]:   Parameters: {"id"=>"127"}
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (7.7ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 11.8ms | ActiveRecord: 17.8ms)
+2012-11-25T12:11:13+00:00 heroku[router]: at=info method=GET path=/admin/content/destroy/127 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=45ms status=200 bytes=6127
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started POST "/admin/content/destroy/127" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:13+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "id"=>"127"}
+2012-11-25T12:11:13+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 302 Found in 60ms
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (139.4ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (225.9ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 272ms (Views: 167.9ms | ActiveRecord: 135.7ms)
+2012-11-25T12:11:13+00:0
+0 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=289ms status=200 bytes=11535
+2012-11-25T12:11:13+00:00 app[web.1]: Started GET "/admin/content/destroy/126" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:13+00:00 app[web.1]:   Parameters: {"id"=>"126"}
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/shared/destroy.html.erb within layouts/administration (8.9ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 42ms (Views: 12.9ms | ActiveRecord: 23.0ms)
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started POST "/admin/content/destroy/126" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#destroy as 
+2012-11-25T12:11:13+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yiY0+94s2PYiEuuIr03aqWFvSJv4gz4FbWEW2sW0HM=", "id"=>"126"}
+2012-11-25T12:11:13+00:00 app[web.1]: Redirected to http://glacial-oasis-6971.herokuapp.com/admin/content
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 302 Found in 54ms
+2012-11-25T12:11:13+00:00 heroku[router]: at=info method=POST path=/admin/content/destroy/126 host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=2ms service=61ms status=302 bytes=119
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]: Started GET "/admin/content" for 23.23.45.232 at 2012-11-25 12:11:13 +0000
+2012-11-25T12:11:13+00:00 app[web.1]: 
+2012-11-25T12:11:13+00:00 app[web.1]:   Processing by Admin::ContentController#index as 
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/content/_article_list.html.erb (81.9ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Completed 200 OK in 127ms (Views: 57.0ms | ActiveRecord: 105.5ms)
+2012-11-25T12:11:13+00:00 app[web.1]: Rendered admin/content/index.html.erb within layouts/administration (101.6ms)
+2012-11-25T12:11:13+00:00 heroku[router]: at=info method=GET path=/admin/content host=glacial-oasis-6971.herokuapp.com fwd= dyno=web.1 queue=0 wait=0ms connect=5ms service=134ms status=200 bytes=10745
+2012-11-25T12:11:14+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>
+2012-11-25T12:11:15+00:00 app[web.1]: #<Errno::ETIMEDOUT: Connection timed out - connect(2)>

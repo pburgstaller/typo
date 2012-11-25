@@ -12,6 +12,8 @@ TypoBlog::Application.configure do
   # See everything in the log (default is :info)
   config.log_level = :debug
 
+  config.active_support.deprecation = :notify
+
   # Use a different logger for distributed setups
   # config.logger = SyslogLogger.new
 

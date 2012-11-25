@@ -54,6 +54,11 @@ class Admin::ContentController < Admin::BaseController
 
   def merge_with
 
+    if request.get?
+      flash[:error] = _("Error, you cannot GET this function!")
+      return(redirect_to :action => 'index')
+    end
+
     id = params[:id]
     merge_id = params[:merge_with]
 

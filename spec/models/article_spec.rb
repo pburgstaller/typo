@@ -632,10 +632,34 @@ describe Article do
   end
 
   describe "merge 2 articles" do
-    it "should have one of the 2 titles"
-    it "should contain both bodys"
-    it "should retain all comments"
-    it "should have one of the two authors"
+    before(:each) do
+      @article1 = Article.create!(:title => 'Article 1', :body => 'Body 1', :published => 'true', :author => 'Author 1')
+      @article2 = Article.create!(:title => 'Article 2', :body => 'Body 2', :published => 'true', :author => 'Author 2')
+    end
+    it "should have one of the 2 titles" do
+      new_article = @article1.merge_with(@article2.id)
+      new_article.title.should be == @article1.title
+    end
+    it "should contain both bodys" do
+      new_article = @article1.merge_with(@article2.id)
+      new_article.body.should match (/#{@article1.body}/)
+      new_article.body.should match (/#{@article2.body}/)
+    end
+    it "should retain all comments" do
+      comment1 = Factory(:comment, :body => 'Body 1' ,:title => 'Title1', :article => @article1)
+      comment2 = Factory(:comment, :body => 'Body 2' ,:title => 'Title2', :article => @article2)
+      comment3 = Factory(:comment, :body => 'Body 3' ,:title => 'Title3', :article => @article2)
+      @article1.comments.count.should be == 1
+      @article2.comments.count.should be == 2
+      new_article = @article1.merge_with(@article2.id)
+      new_article.save!
+#      new_article = Article.find(new_article.id)
+      new_article.comments.count.should be == 3
+    end
+    it "should have one of the two authors" do
+      new_article = @article1.merge_with(@article2.id)
+      new_article.author.should be == @article1.author
+    end
   end
 
 end

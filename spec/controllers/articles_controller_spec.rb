@@ -33,8 +33,23 @@ describe ArticlesController do
   end
 
   describe 'merge action' do
+    before(:each) do
+      Factory(:user,
+            :login => 'publish',
+            :password => 'whatever',
+            :name => 'Publisher',
+            :email => 'publish@example.com',
+            :settings => {:notify_watch_my_articles => false, :editor => 'simple'},
+            :text_filter => Factory(:markdown),
+            :profile => Factory(:profile_publisher),
+            :notify_via_email => false,
+            :notify_on_new_articles => false,
+            :notify_on_comments => false,
+            :state => 'active')
+    end
+
     it "should prevent non-admin users from merging two articles" do
-      pending "implementation"
+      pending
     end
   end
 

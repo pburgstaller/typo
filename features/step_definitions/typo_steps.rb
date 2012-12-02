@@ -15,3 +15,20 @@ end
 Then /^I follow edit "(.*?)"$/ do |article|
   pending # express the regexp above with the code you wish you had
 end
+
+Given /^there are no categories/ do
+  Category.destroy_all
+  assert Category.all.count == 0
+end
+
+When /^I follow the "(.*?)" link$/ do |arg1|
+  visit path_to(arg1)
+end
+
+Then /^I should get a "(.*?)" message$/ do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Then /^I should see the "New Categories" page$/ do
+  URI.parse(current_url).path.should == "/admin/categories/new"
+end

@@ -25,6 +25,8 @@ module NavigationHelpers
       raise "Cannot find article with title #{title}" unless article
       article_id = article.id
       "/admin/content/edit/#{article_id}"
+    when /^categories$/
+      '/admin/categories/new'
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
